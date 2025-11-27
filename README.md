@@ -62,6 +62,14 @@ pip install -r requirements.txt
 AutoROM --install-roms
 ```
 
+### Playing a random game
+
+```bash
+# Watch the random game play
+python Game_Tests\Test_Random_SpaceInvaders.py
+
+```
+
 ### Training the Agent
 
 ```bash
@@ -85,7 +93,7 @@ python play.py --no-render
 ## 📁 Project Structure
 
 ```
-SpaceInvaders_DQN/
+Atari_SpaceInvaders_DQN/
 ├── config.py          # Hyperparameters and environment settings
 ├── model.py           # Neural network architecture
 ├── train.py           # Main training loop
@@ -94,7 +102,9 @@ SpaceInvaders_DQN/
 ├── utils.py           # Preprocessing and helper functions
 ├── plot_results.py    # Training visualization
 ├── requirements.txt   # Python dependencies
-└── trained_model.pth  # Saved model weights
+├── trained_model.pth  # Saved model weights
+└── Game_Tests/
+    └── Test_Random_SpaceInvaders.py    # Play a random game
 ```
 
 ## ⚙️ Configuration
