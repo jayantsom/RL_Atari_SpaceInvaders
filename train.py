@@ -104,7 +104,7 @@ def train():
             if frame_idx % config.TARGET_UPDATE == 0:
                 target_net.load_state_dict(policy_net.state_dict())
             
-            if frame_idx % (config.TOTAL_FRAMES // 20) == 0:
+            if frame_idx % (config.TOTAL_FRAMES // 100) == 0:
                 avg_reward = np.mean(episode_rewards[-20:]) if episode_rewards else 0
                 avg_loss = np.mean(loss_history[-100:]) if loss_history else 0
                 avg_q_value = np.mean(q_history[-100:]) if q_history else 0
