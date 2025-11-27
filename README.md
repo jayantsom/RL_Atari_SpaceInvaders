@@ -6,6 +6,25 @@
 
 A complete implementation of Deep Q-Network (DQN) reinforcement learning agent that learns to play Space Invaders at superhuman levels. This project reproduces and extends DeepMind's groundbreaking work on deep reinforcement learning for Atari games.
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/0eb362ca-2e9a-45a7-a578-4d570c3aa40c" width="250" height="200" alt="Moving right and firing"><br>
+        <strong>Moving right and firing</strong>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/32596b6c-3f7a-4aed-8b09-163c418dfb1b" width="250" height="200" alt="Targeting mother ship"><br>
+        <strong>Targeting the pink mother ship</strong>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/47cea4bc-6ba8-4137-b1af-0da272fa0428" width="250" height="200" alt="After killing mother ship"><br>
+        <strong>After killing the mother ship</strong>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## 🎯 Project Overview
 
 This repository implements a DQN agent that learns to play Space Invaders from raw pixel inputs. The agent achieves human-level performance through:
